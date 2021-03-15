@@ -1,0 +1,364 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.top-box{
+    width: 100%;
+    height: auto;
+    background-image: url("images/IMG_1467.JPG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+}
+header{
+    padding: 40px 0 40px 0;
+    width: 90%;
+    margin-left: 5%!important;
+    height: auto;
+    position: relative;
+}
+.header-links, .search-box{
+    padding: 3px;
+}
+.header-links a {
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.search-box i, .search-box span{
+    color: white;
+    font-size: large;
+}
+.site-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 130px;
+    height: 80px;
+    z-index: 1;
+}
+.top-heading{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.second-search-bar{
+    margin-left: 25%!important;
+    width: 50%;
+    height: 70px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(255,255,255,0.5);
+    margin-bottom: 30px;
+}
+.column-1 {
+    border-radius: 50px 0 0 50px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid  #80ffff;
+}
+.column-1 span {
+    color: black;
+    font-size: small;
+}
+.column-2 {
+    border: none;
+}
+.column-3 {
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+}
+.best-travel-logo{
+    width: 100px;
+    height: 100px;
+}
+.highlights-box{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    /* background-color: red; */
+    
+    margin: 0!important;
+}
+.highlights-item {    
+    height: 290px;
+    /* background-color: pink; */
+}
+.highlights-item-innerbox {
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    cursor: pointer;
+}
+.highlights-item-image, .latest-news-image {
+    width: 100%;
+    height: 60%;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
+}
+.highlights-item-innerbox span, .latest-news-item-inner span, .latest-news-item-lower-inner div span, .trending-inner-box span, .normal-trending-box span{
+    font-size: small;
+    color: #6b727b;
+}
+.latest-news-item-inner span, .latest-news-item-lower-inner div span, .trending-inner-box span, .normal-trending-box span{
+    font-weight: bold;
+    font-size: x-small;
+}
+.highlights-item-innerbox h5, .latest-news-item-inner h5, .latest-news-item-lower-inner div span, .opinion-article-text h5, .trending-inner-box h5, .normal-trending-box h5{
+    color: #2c3543;
+}
+.latest-news-box, .travel-inpiration-box, .getting-on-road-box, .trending-stories, .fav-destination{
+    /* background-color: blue; */
+    width: 92%;
+    margin: auto!important;
+}
+.latest-news-box h1{
+    color: #2c3543;
+}
+.latest-news-item{
+    height: 470px;
+    /* background-color: black; */
+}
+.latest-news-lower-item{
+    height: 130px;
+    /* background-color: black; */
+}
+.latest-news-inner-box {
+    margin: 0!important;
+}
+.latest-news-item-inner, .latest-news-item-lower-inner{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.latest-news-item-lower-inner{
+    margin-left: 0!important;
+    margin-right: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.latest-news-image{
+    height: 70%;
+}
+.latest-news-image-small{
+    object-fit: cover;
+    width: 100%;
+    height: 95%;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
+}
+.membership-box {
+    background-color: #1f1f1f;
+    border-radius: 0.5rem;
+    width: 60%;
+    height: auto;
+    margin: 100px 0 50px 65px!important;
+}
+.membership-box div {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://lp-cms-production.imgix.net/2020-12/1200x700_iphone_in_hand1.jpg?auto=format&fit=crop&sharp=10&vib=20&crop=entropy&ixlib=react-8.6.4&h=560&w=900');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.membership-box span, .travel-inspiration-tag, .opinion-article-text span{
+    font-size: small;
+    line-height: 1.5;
+    color: #6b727b;
+}
+.membership-box h3 , .membership-box h5, .hiking-video-box h5, .safe-travelling-box h5{
+    color: white;
+}
+.membership-box h5{
+    width: 75%;
+    line-height: 1.5;
+}
+.membership-box div span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: #fff;
+    background-color: red;
+}
+.travel-inpiration-box{
+    height: auto;
+    /* background-color: red; */
+    padding-bottom: 50px;
+}
+.travel-inpiration-box div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.travel-inpiration-box div div {
+    position: relative;
+    width: 12.5%;
+    height: 150px;
+    /* background-color: pink; */
+}
+.travel-inpiration-box div div img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 50px;
+}
+.travel-inpiration-box div div span{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #277bba;
+    width: 100;
+    text-align: center;
+}
+.getting-on-road-inner-box{
+    height: 700px;
+}
+.opinion-article-image{
+    background-image: url('https://lp-cms-production.imgix.net/2021-03/shutterstockRF_667925704.jpg?auto=format&fit=crop&crop=entropy&sharp=10&vib=20&ixlib=react-8.6.4&h=360&w=630');
+    background-position: center center;
+    background-size: cover;
+}
+.opinion-article, .hiking-video-box, .safe-travelling-box, .trending-inner-box{
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);   
+}
+.hiking-video-box{
+    width: 100%;
+    height: 48%;
+    background-image: url("https://lp-cms-production.imgix.net/brightcove/videos/images/posters/5104226627001_6184115273001_6184113588001-vs.jpg?fit=crop&w=640&h=320&ixlib=react-8.6.4&w=640&h=320&dpr=2");
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 4%;
+    padding: 42% 1rem 1rem 1rem!important;
+}
+.hiking-video-box i {
+    font-size: xx-large;
+    color: blue;
+}
+.safe-travelling-box{
+    width: 100%;
+    height: 48%;
+    background-image: url("https://lp-cms-production.imgix.net/2020-11/GettyRF_620921017.jpg?fit=crop&w=640&h=320&ixlib=react-8.6.4&w=640&h=320&dpr=2");
+    background-position: center center;
+    background-size: cover;
+    padding: 39% 1rem 1rem 1rem!important;
+}
+.destination-block {
+    width: 10%!important;
+}
+.trending-stories div{
+    height: auto;
+}
+.small-box{
+    margin-top: 15px;
+    height: 500px!important;
+}
+.desert-img{
+    height: 370px!important;
+    background-image: url('https://lp-cms-production.imgix.net/2021-02/shutterstockRF_712190851.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&h=400&w=700');
+    background-position: center center;
+    background-size: cover;
+}
+.trending-image{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.trending-image-text{
+    height: 40%!important;
+}
+.normal-trending-box{
+    padding: 10% 1em 0 1em;
+}
+.fav-destination-box{
+    height: 715px!important;
+    background-image: url("https://lp-cms-production.imgix.net/2019-06/cd08de280fd1e3eaee992a6123e95e5d-cabbage-beach.jpg?fit=crop&w=420&h=660&exp=-10&sat=30&auto=format&ixlib=react-8.6.4&w=420&h=660&dpr=2");
+    background-position: center center;
+    background-size: cover;
+    padding: 10px;
+}
+.fav-destination-sec-box div{
+    margin-bottom: 15px;
+    height: 350px;
+}
+.fav-image-box-1{
+    background-image: url("https://lp-cms-production.imgix.net/2019-06/4645e160dd3f5555deb3c4bd0a35a1975a7c7a4b9e4ffe63f790fe5e903d0a73.jpg?fit=crop&w=850&h=420&exp=-10&sat=30&auto=format&ixlib=react-8.6.4&w=850&h=420&dpr=2");
+}
+.fav-image-box-2{
+    background-image: url("https://lp-cms-production.imgix.net/2019-06/b4acbfce78ce3e4c696e380274ad65969fdbc4e502d76b0ec641be2e77fbe184.jpg?fit=crop&w=400&h=400&exp=-10&sat=30&auto=format&ixlib=react-8.6.4&w=400&h=400&dpr=2");
+}
+.fav-image-box-3{
+    background-image: url("https://lp-cms-production.imgix.net/2019-06/534ea21a92f3877d464f7a7daf20e72a03a5c4f0696d9d9f66e51a9db6c0eba8.jpg?fit=crop&w=400&h=400&exp=-10&sat=30&auto=format&ixlib=react-8.6.4&w=400&h=400&dpr=2");
+}
+.fav-image-box-1, .fav-image-box-2, .fav-image-box-3 {
+    padding: 10px;
+    background-position: center center;
+    background-size: cover;
+}
+.fav-destination-box span, .fav-image-box-1 span, .fav-image-box-2 span, .fav-image-box-3 span{
+    font-size: x-small;
+    color: #fff;
+}
+.fav-destination-box h4, .fav-image-box-1 h4, .fav-image-box-2 h4, .fav-image-box-3 h4{
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+.footer-column{
+    height: 300px;
+}
+.footer-items div{
+    font-size: x-small;
+    color: #6b727b;
+    margin-bottom: 5px;
+}
+.footer-long-text{
+    font-size: xx-small!important;
+}
+.footer-heading{
+    font-size: x-small;
+    font-weight: bold;
+    color: #2c3543;
+}
+.footer-button{
+    border-radius: 100px!important;
+}
+.footer-underline{
+    border-top-width: .125rem;
+    border-color: #e2e7ea;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.lower-footer img{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+.lower-footer span {
+    font-size: x-small;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.lower-footer div{
+    font-size: xx-small;
+    color: #6b727b;
+}
